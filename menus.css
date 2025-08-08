@@ -1,0 +1,196 @@
+/* Existing global styles */
+*{
+    /* margin: 0;
+    padding: 0; */
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+
+.Costco-Canada img {
+    width: 100px;
+    height: auto;
+    display: block;
+}
+
+body {
+    padding-top: 95px;
+}
+
+.content-area {
+    max-width: 1500px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.image-text-layout {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.image-column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex-shrink: 0;
+}
+
+.image-wrapper {
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.image-wrapper img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+    border-radius: 3px;
+}
+
+.text-box {
+    flex-grow: 1;
+    padding: 0 10px;
+    border-radius: 8px;
+}
+
+
+
+.text-box p {
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    .image-text-layout {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .image-column {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .image-wrapper {
+        margin-bottom: 20px;
+    }
+
+    .image-wrapper img {
+        height: auto;
+        max-height: 250px;
+    }
+
+    .text-box {
+        padding: 0;
+        text-align: center;
+    }
+}
+
+main.pictures {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    max-width: 1300px;
+    margin: 40px auto;
+    flex-wrap: wrap;
+}
+
+.menu-item-section {
+    display: flex;
+    align-items: stretch;
+    gap: 20px;
+    padding: 25px;
+    height: 350px;
+    width: 200px;
+    background: #fff;
+    border-radius: 3%;
+    box-shadow:  0 5px 15px rgba(0, 0, 0, 0.08);
+    flex-basis: 48%;
+    max-width: 600px;
+    box-sizing: border-box;
+    /* flex-direction: row-reverse; */
+}
+
+.item-pictures {
+    flex-shrink: 0;
+}
+
+.item-text h1,
+.text-box h2 {
+    color: #121212;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 2em;
+}
+
+.item-text {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+} 
+
+.item-pictures img {
+    object-fit: cover;
+    display: block;
+}
+
+/* .item-text p {
+    font-size: 1em;
+    margin-bottom: 0px;
+    margin-top: 10px;
+
+} */
+
+.item-text ul {
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+
+.item-text .price {
+    color: #121212;
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: 3px;
+    margin-bottom: 0;
+}
+
+.item-text .description {
+    font-size: 1em;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.item-text .item-price {
+    color: #121212;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.item-text .item-description {
+    font-size: 1em;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
